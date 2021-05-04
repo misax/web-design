@@ -1,0 +1,85 @@
+
+/*CSS variables*/
+
+:root{
+    --primary-color:#b90415;
+     --primary-color-hover:#d3071b;
+      --secondary-color:#103063;
+       --secondary-color-hover:#143f85;
+       --light-color:#f4f4f4;
+       --white-color:#fff;
+       --add-white-color:#eee;
+       --dark-color:#333;
+       --text-dark-light:#ccc;
+       
+
+}
+/*Buttons*/
+
+.btn{
+  padding: 1rem;
+  color: var(--white-color);
+  display: inline-block;
+}
+
+.btn-primary{
+   background-color: var(--primary-color);
+}
+
+.btn-primary:hover{
+   background-color: var(--primary-color-hover);
+}
+
+.btn-secondary{
+   background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover{
+   background-color: var(--secondary-color-hover);
+}
+
+/*Text colors*/
+
+.text-dark-light{
+  color:var(--dark-light-color);
+}
+
+.text-primary{
+  color: var(--primary-color);
+}
+
+.text-secondary{
+  color: var(--secondary-color);
+}
+
+.text-light{
+  color:var(--light-color);
+}
+
+/*Utilities*/
+
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding:  0 3rem; /*3rem 48px*/
+}
+
+.lead{
+    font-size: 1.3rem;
+}
+
+.section-head i{
+  margin-right: 10px;
+}
+
+.mb{
+  margin-bottom: 1rem;
+}
+.mt{
+  margin-top: 1rem;
+}
+
+.text-center{
+  text-align: center;
+}

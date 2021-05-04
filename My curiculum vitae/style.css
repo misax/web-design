@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('/img/black-1072366_1920.jpg') no-repeat center center/cover;
+       font-family: 'Roboto',sans-serif;
+    color: #fff;
+}
+
+.empty{
+    height: 60px;
+}
+
+.container{ 
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5));
+    max-width: 1110px;
+    margin: 0px auto;
+    padding-bottom: 50px;
+    padding: 0px 20px;
+    border: 2px solid #333;
+    margin-bottom: 30px;
+    overflow: hidden;
+ 
+  
+    
+}
+/*Main heading*/
+
+ .heading{
+    width: 100%;
+    height: 50px;
+   position: fixed;
+     background:linear-gradient(rgba(0, 1, 0, 0.2), rgba(0, 1, 0, 0.2)),
+     url('/img/black-1072366_1920.jpg');
+     border-bottom: 1px solid #fff;
+    
+
+}
+
+ .heading h1{
+   color: #fff;
+  
+}
+
+/*Nav*/
+.nav-bar ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+    margin-top: -40px;
+    margin-right: 50px;
+}
+
+.nav-bar ul li{
+     margin-left: 2rem;
+    
+}
+
+.nav-bar ul li a{
+    
+    color: #fff;
+    text-decoration: none;
+}
+
+.image{
+    width: 10%;
+    height: 100px;
+    position: absolute;
+    left: 22%;
+    top: 10%;
+  
+   
+}
+
+img{
+   width: 100%; 
+   border-radius: 5px; 
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(116, 116, 116);
+    padding: 1rem;
+}
+
+p{
+    color: #666;
+}
+/*Basic infos*/
+
+.basic-infos{
+   display: flex;
+   flex-direction: column;
+  align-items: center;
+ 
+}
+
+.basic-infos h2{
+     display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+hr{
+    width: 50%;
+   margin: 0 auto;
+   margin-top: 10px;
+}
+
+/*Education*/
+
+.education,
+.occupations,
+ .lan-knowledge,
+ .comp-knowledge,
+ .further-knowledge,
+ .hobbies {
+   width: auto;
+    
+}
+
+.education .school p{
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.education .info-edu p{
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.education .info-edu h1{
+    font-size: 3rem;
+}
+
+.info-edu h1, h2{
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+.info-edu p{
+  width: 50%;
+  text-align: left;
+  margin: 0 auto;
+    
+}
+
+.hobbies{
+    padding-bottom: 20px;
+}
