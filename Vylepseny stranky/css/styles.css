@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*reusable stuff*/
+
+.row {
+ max-width: 1140px;
+  margin: 0 auto;
+}
+
+.heading-main h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  text-shadow: 1px 1px 5px rgb(129, 100, 100);
+}
+
+.heading-main h2:after {
+  content: "";
+  display: block;
+  width: 150px;
+  border-bottom: 1px solid rgb(69, 124, 69);
+  margin: 20px auto;
+}
+
+.pizza-reusable img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px #000;
+}
+
+
+
+
+/*Logo*/
+#logo {
+  display: inline-block;
+  position: absolute;
+  margin-top: 22px;
+  margin-left: -362px;
+}
+#logo img {
+  position: absolute;
+  width: 200px;
+  top: 12%;
+  left: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+}
+
+/*Navigation*/
+
+nav ul {
+  float: right;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+  margin-left: 15px;
+  left: 200px;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 35px;
+  text-decoration: none;
+}
+nav ul li a:link,
+nav ul li a:visited {
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.nav ul li a:hover,
+.nav ul li a:active {
+  border-bottom: 2px solid rgb(69, 124, 69);
+  transition: border-bottom 0.5s;
+}
+
+/*Header*/
+#header-container {
+  background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/pizza-1317699_640.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+/*
+#header-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/img/pizza-1317699_640.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+*/
+
+.div-header {
+  position: absolute;
+  top: 52%;
+  left: 40%;
+  transform: translate(-49%, -50%);
+ 
+}
+
+.div-header h1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+
+
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  text-shadow: 3px -1px 5px rgba(150, 150, 150, 1);
+}
+/*Odkazy*/
+.btn-header {
+  display: inline-block;
+  color: #fff;
+  margin-top: 20px;
+
+  font-size: 30px;
+  letter-spacing: 1px;
+
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn-enter {
+  background: rgb(69, 124, 69);
+  border: 1px solid rgb(69, 124, 69);
+}
+.btn-leave {
+  margin-left: 20px;
+  background: rgb(143, 65, 65);
+  border: 1px solid rgb(143, 65, 65);
+}
+
+.btn-enter:link,
+.btn-enter:visited {
+  background: rgb(69, 124, 69);
+}
+.btn-enter:hover,
+.btn-enter:active {
+  transition: background 1s;
+  background: rgb(27, 41, 27);
+}
+
+.btn-leave:link,
+.btn-leave:visited {
+  background: rgba(241, 239, 239, 0.055);
+  border: 1px solid rgba(94, 94, 94, 0.801);
+}
+.btn-leave:hover,
+.btn-leave:active {
+  transition: background 1s;
+  background: rgb(180, 121, 121);
+}
+
+#main-container {
+  background: linear-gradient(
+      161deg,
+      rgba(20, 19, 19, 0.7) 0%,
+      rgba(22, 23, 26, 0.7) 70%
+    ),
+    url(/img/honey-pomelo-2215038__340.webp);
+
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+#main-container h2 {
+  position: absolute;
+  top: 150%;
+  left: 40%;
+  transform: translate(-32%, -168%);
+  text-decoration: none;
+}
+
+/*About us*/
+
+.pizza-reusable img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px #000;
+}
+
+/*Our products*/
+.our-products .pizza-reusable img {
+  width: 100%;
+  height: 270px;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px #000;
+}
+.text-pizza {
+  margin-top: 5px;
+ margin-bottom: 20px;
+}
+.text-pizza div{
+  margin-top: -5px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #000;
+  text-align: center;
+  border-radius: 50%;
+  padding: 12px;
+  float: left;
+}
+.text-pizza p{
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+/*Reference*/
+
+.reference{
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),  url(/img/pizza-1317699_640.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.reference h2{
+  color: #fff;
+  padding-top: 45px;
+}
+
+.reference h2:after{
+  border-bottom: 2px solid #fff;
+}
+
+.one-reference {
+color: #fff;
+line-height: 25px;
+font-size: 20px;
+}
+
+.one-reference p{
+  font-style: italic;
+}
+
+ .image-name{
+   margin-top: 10px;
+   margin-left: -4px;
+  
+}
+
+.image-name p{
+  padding-top: 10px;
+  padding-left: 60px;
+  font-style: normal;
+}
+
+.image-name img{
+  width: 50px;
+  border-radius: 50%;
+  float: left;
+}
+
+/*Photo gallery*/
+
+.stop-decoration-h2 h2{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  border: 1px  solid transparent;
+}
+
+.alter-image li{
+  height: 280px;
+  list-style-type: none;
+  /*background-color: rgb(128, 127, 80);*/
+  overflow: hidden;
+  
+ 
+}
+
+.alter-image  img{
+    width: 100%;
+    height: 280px;
+  /* opacity: 1;*/
+   transform: scale(1.15);
+}
+
+/*
+.alter-image img:hover{
+ transform: scale(1);
+ transition: 0.5s,opacity 0.5;
+ cursor: move;
+}
+*/
+
+/*Form*/
+
+.text-decoration-stop h2{
+  text-shadow: 0px 0px 0px black;
+}
+
+.contact-form {
+  max-width: 700px;
+  text-align: center;
+}
+
+.contact-form input{
+  width:80%;
+  margin: 5px 0;
+  padding: 7px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.contact-form textarea{
+  width: 80%;
+    margin: 5px 0;
+  padding: 7px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.contact-form input[type="submit"]{
+  background: rgb(69, 124, 69);
+  color: #fff;
+  font-size: 20px;
+}
+
+.contact-form input[type="submit"]:hover{
+  transition: background-color 1s;
+  background: transparent;
+  color: #000;
+  
+}
+
+/*Footer*/
+.footer-main{
+ 
+  background-color: rgb(69, 124, 69);
+  margin-top: 10px;
+  color: #fff;
+}
+.social {
+  max-width: auto;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social p {
+ display: inline;
+ padding-left: 15px;
+  color: #fff;
+  padding-top: -10px;
+}
+
+
+.social p a:link,
+.social p a:visited{
+text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+
+.social p a:active,
+.social p a:hover{
+ color: #000;
+}
+.social img{
+  width: 100px;
+  border: 3px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social .instagram-img{
+   height: 39px;
+}
+
+
+.footer-text {
+text-align: center;
+margin: 20px 0;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+
+}
+
+
+
+
+/*stop floating*/
+.clearfix{
+  zoom: 1;
+}
+.clearfix:after{
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}

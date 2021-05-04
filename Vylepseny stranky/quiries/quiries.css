@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1150px) {
+  /*Photo gallery*/
+  .alter-image {
+    margin: 0 15px;
+  }
+
+  /*Reference*/
+  .col.span-1-of-3.one-reference {
+    width: 48.5;
+    margin-left: 1.5%;
+  }
+  .one-reference:nth-child(3) {
+    display: none;
+  }
+
+  /*Our products*/
+
+  .pizza-reusable img {
+    margin: 0 2%;
+  }
+
+  .pizza-reusable .span-1-of-2 {
+    width: 48%;
+  }
+}
+
+
+
+@media only screen and (max-width: 860px) {
+  /*About our pizza*/
+  .pizza-reusable .span-1-of-2 {
+    width: 96.5%;
+  }
+
+  .pizza-reusable img {
+    margin: 0 10px;
+  }
+
+  .text-pizza p {
+    margin-top: 12px;
+  }
+
+ .pizza-reusable .col {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  /*About our pizza*/
+  .text-pizza p {
+    margin-top: 2px;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 750px) {
+  /*Photo gallery*/
+  .alter-image .col {
+    margin-left: 0;
+  }
+
+  .alter-image li {
+    width: 100%;
+  }
+  /*Reference*/
+  .reference {
+    margin: 0 10px;
+  }
+
+  .pizza-reusable .span-1-of-2 {
+    width: 96%;
+  }
+
+  .pizza-reusable .col {
+    margin-left: 0;
+  }
+
+  .pizza-reusable img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media only screen and(max-width:730px) {
+  /*Header*/
+   .div-header{
+     width: 100%;
+      left: 50%;
+      transform: translate(0%,0%);
+     border: 1px solid red;
+   }
+   
+   .div-header h1{
+      text-align: center;
+   }
+    /*Our products*/
+
+    .btn-header{
+      display: block;
+      text-align: center;
+   }
+
+   
+}
+
+@media only screen and(max-width:685px) {
+  /*Reference*/
+  .col.span-1-of-3.one-reference {
+    width: 100%;
+    margin: 0 10px;
+  }
+  .image-name {
+    float: right;
+  }
+  .one-reference {
+    display: block;
+    visibility: visible;
+  }
+}
+
