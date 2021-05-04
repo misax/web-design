@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #999;
+}
+.container{
+   max-width: 660px;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.container img{
+      display: block;
+    transform: translate(55%,55%);
+
+}
+img{
+    width: 80%;
+  
+    border-radius: 20px;
+    box-shadow: 5px 6px 2px #333;
+    border: 1px solid #666;
+   transform: scale(1.35);
+}
