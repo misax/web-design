@@ -1,0 +1,544 @@
+* {
+   margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*****Nav-bar*****/
+
+.nav-bar{
+    width:100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+     z-index: 50;
+     border-bottom: 1px solid #fff;
+    
+}
+
+/*****Reusable*****/
+
+/*section,.row{
+    outline: 1px solid red;
+}
+*/
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.heading-content h2{
+	text-align: center;
+font-size: 27px;
+color: rgb(44, 39, 39);
+letter-spacing: 1px;
+margin-top: 20px;
+font-family: sans-serif; 
+}
+
+.heading-content:after{
+    display: block;
+    width:180px;
+    content: '';
+    border-bottom: 2px solid rgba(74, 46, 46, 0.64);
+    margin:10px auto;
+}
+
+
+/****Logo*****/
+#logo img{
+    width: 150px;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,50%);
+}
+
+/****Header****/
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/images/dusk-404072_1920.jpg);
+    height: 100vh;
+    z-index: 200;
+     background-attachment: fixed;
+}
+
+.heading-text {
+  position: absolute;
+    top:55%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.heading-text h1{
+    color:rgba(141, 133, 133, 0.87);
+    font-size: 50px;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-shadow: 5px -1px 6px rgba(141, 133, 133, 0.87);
+}
+
+/****Navigation****/
+
+
+
+nav ul{
+   
+  float: right;  
+    position: fixed;
+   z-index: 150;
+    left: 28%;
+}
+
+nav ul li{
+    display: inline-block;
+   font-size: 25px;
+   margin-left: 15px;
+}
+
+nav ul li a:link,
+nav ul li a:visited{
+    text-decoration: none;
+    color:white;
+     border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active{
+    transition: border-bottom 0.5s;
+    transition: transform 0.5s;
+    border-bottom: 1px solid rgba(178, 48, 108, 0.88);
+    
+   
+}
+
+
+
+/****Buttons*****/
+
+ .btn{
+     display: inline-block;
+    color:#fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 35px;
+    border-radius: 10px;
+    font-style: italic;
+     letter-spacing: 1px;
+     margin-top: 7px;
+     
+}
+
+  .btn-red:link,
+.btn-red:visited{
+   
+    border:1px solid rgba(224, 49, 49, 0.54);
+    background-color: rgba(224, 49, 49, 0.54)
+}
+
+ .btn-red:hover,
+.btn-red:active{
+    transition: background 0.5s;
+    border:1px solid rgba(155, 68, 68, 0.54);
+    background-color: rgba(155, 68, 68, 0.54)
+}
+
+
+
+ .btn-green:link,
+.btn-red:visited{
+    
+   border:1px solid rgba(60, 96, 49, 0.54);
+    margin-left: 5px;
+}
+
+ .btn-green:hover,
+.btn-green:active{
+    transition: background 0.5s;
+    border:1px solid rgba(60, 96, 49, 0.54);
+    background-color: rgba(60, 96, 49, 0.54);
+   
+}
+
+/*Mobile navigation*/
+
+.mobile-nav-icon{
+    float: right;
+    margin-top: 5px;
+    display: none;
+}
+
+/*****Main*****/
+
+
+/****Section one****/
+
+.trans-back{
+    background-color: rgb(92, 117, 67);
+    height: 250px;
+    border-radius:10px ;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+    height: 250px;
+    border-radius:10px ;
+    box-shadow: 4px 7px 10px #000;
+     opacity: 0.5;
+    transform: scale(1.55);
+}
+
+.image-container img:hover{
+     transform: scale(1);
+    transition: transform 0.8s,opacity 0.8s;
+    opacity: 1;
+}
+
+/****section 2****/
+
+.container-reference{
+    margin-top: -20px;
+   
+}
+
+/****Section two****/
+
+.reference-of-my-page{
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/images/dusk-404072_1920.jpg);
+background-attachment: fixed;
+}
+
+.head-inner{
+margin: 20px 0;
+    margin-bottom: 20px;
+text-align: center;
+padding: 10px 0;
+color: #fff;
+margin-bottom: -17px;
+margin-left: 10px;
+margin-right: 15px;
+}
+
+.head-inner:after{
+  display: block;
+    width:180px;
+    content: '';
+    border-bottom: 2px solid #000;
+    margin:20px auto;
+}
+
+.contain-wrapper{
+    margin-bottom: 10px;
+}
+
+.content-wrapper-inner img{
+       width: 100%;
+       height: 300px;
+    border-radius:10px ;
+    box-shadow: 4px 7px 10px #000;
+}
+
+.contain-wrapper .number{
+   width: 50px;
+   height: 50px;
+   border: 2px solid #000;
+   border-radius: 50%;
+   padding: 12px 0;
+   text-align: center;
+   float: left;
+ 
+}
+
+.contain-wrapper p{
+   margin-left: 60px;
+   font-size: 18px;
+}
+
+
+/*****Section three****/
+
+
+
+.heading-content-ref{
+     font-size: 17px;
+    font-family: sans-serif;
+     color:#000;
+    line-height: 20px;
+    letter-spacing: 2px;
+   text-align: left;
+        margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.images-container img{
+     width: 100%;
+    border-radius: 10px;
+    box-shadow: 6px -3px 8px #000;
+}
+
+.images-wrapper img{
+    margin-top: 50px;
+
+}
+
+.wrapper-image-one{
+    margin-top: 20px;
+}
+
+.content-wrapper-inner{
+font-size: 15px;
+font-family: sans-serif;
+color: #000;
+letter-spacing: 1px;
+text-align: left;
+margin-top: -39px;
+line-height: 17px;
+margin-right: -21px;
+  
+}
+
+
+
+.content-wrapper-inner p{
+margin-left: 60px;
+font-size: 15px;
+margin-bottom: 2px;
+padding-bottom: 18px;
+}
+
+.image-wrapperer{
+    margin-top: -10px;
+}
+
+/****Section four*****/
+
+
+.container-reference {
+	font-size: 20px;
+}
+
+.container-reference p{
+    font-style: italic;
+    color: #fff;
+}
+
+.wrap-image-text{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.wrap-image-text p{
+    padding: 18px 40px;
+    font-style: normal;
+    margin-left: 20px;
+}
+
+.wrap-image-text img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/****Photo gallery****/
+
+.images-gallery li{
+	list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    height: 300px;
+    
+}
+
+
+
+/*Hacks for images*/
+
+.images-gallery img{
+    width: 100%;
+    height: 300px;
+    opacity: 0.5;
+    transform: scale(1.15);
+   
+}
+
+.images-gallery img:hover{
+    transform: scale(1);
+    transition: transform 0.5s,opacity 0.5s;
+    opacity: 1;
+    
+  
+}
+
+/*Section 5*/
+
+.product-wrapper{
+  background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/images/redwood-national-park.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-clip: padding-box;
+}
+
+.headline p{
+    color:#fff;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+.margin-15-left p{
+    margin-left: -15px;
+}
+
+
+/****Form****/
+.contact-form{
+    max-width: 800px;
+    text-align: center;
+}
+.contact-form input{
+     width: 80%;
+    margin: 5px 0;
+    padding: 5px;
+    border:1px solid #000;
+    border-radius: 10px;
+    box-shadow: 6px 7px 6px grey;
+}
+
+
+
+.contact-form textarea{
+     width: 80%;
+    padding: 5px;
+    border:1px solid #000;
+    border-radius: 10px;
+    box-shadow: 6px 7px 6px grey;
+    font-family: Arial;
+}
+
+.contact-form input[type="submit"]{
+   background-color:  rgba(229, 11, 11, 0.9);
+    font-size: 20px;
+    color:#fff;
+}
+
+.contact-form input[type="submit"]:hover{
+    transition: backgound-color 0.5s;
+ background-color: rgba(229, 53, 11, 0.9);
+    color:#000;
+}
+
+
+
+
+/*****Aside****/
+
+.aside{
+       max-width: 396px;
+    height: 150px;
+    position: absolute;
+    top: 13%;
+    right: 5%;
+    border: 1px solid #000;
+
+}
+
+.aside h3{
+    color:#fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+     word-spacing: 2px;
+    letter-spacing: 2px;
+    float: left;
+}
+
+
+/*****Footer****/
+
+.footer-wrapper{
+ margin-top: 30px;
+   background-color: rgba(229, 11, 11, 0.9);
+    color:#fff;
+}
+
+.reference-social{
+   text-align: center;
+    padding: 10px 0;
+}
+
+.reference-social p{
+    display: inline;
+  
+}
+
+.reference-social a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.reference-social a:link,
+.reference-social a:visited
+{
+      color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.reference-social a:hover,
+.reference-social a:active
+{
+    color:#000;
+}
+
+.footer-paragraph{
+    text-align: center;
+    padding: 5px 0;
+    font-size: 15px;
+}
+
+.footer-paragraph p{
+    color:#fff;
+}
+
+
+
+/*****Stop floating*****/
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

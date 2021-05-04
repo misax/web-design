@@ -1,0 +1,120 @@
+
+@keyframes slideInFromLeft{
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+/*Cyclone eyes*/
+.polling_message {
+    color: white;
+    float: left;
+    margin-right: 2%;
+}
+
+.view_port {
+    background-color: black;
+    height: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*Animations*/
+.cyclon_eye {
+
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, .9) 25%,
+            rgba(0, 0, 0, .1) 50%,
+            rgba(0, 0, 0, .9) 75%);
+    color: white;
+    height: 100%;
+    width: 20%;
+
+    -webkit-animation: 4s linear 0s infinite alternate move_eye;
+    animation: 2s linear 2s infinite alternate move_eye;
+}
+
+
+@keyframes move_eye {
+    from {
+        background-color: #ceb0b0;
+        margin-left: -20%;
+    }
+
+    to {
+        background-color: #0c6abd;
+        margin-left: 100%;
+    }
+}
+
+.navbar .logo,
+.cloud .container .text-center h2 {
+    color: rgb(255, 255, 255);
+
+    animation: 3s change-color infinite 1s;
+}
+
+@keyframes change-color {
+    from {
+        color: rgb(226, 211, 211);
+    }
+
+    to {
+        color: rgb(119, 116, 96);
+    }
+}
+
+.cli img {
+
+    animation-name: shift;
+    animation-duration: 2s;
+    animation-direction: alternate;
+
+    animation-iteration-count: 1;
+}
+
+
+@keyframes shift {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateX(20px);
+    }
+}

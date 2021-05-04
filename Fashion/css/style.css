@@ -1,0 +1,369 @@
+/*
+* {
+  border: 1px solid red;
+}
+*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  letter-spacing: initial;
+  position: relative;
+  background-color: #ededed;
+  background-image: url(/images/Manhattan.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container-fluid.header-wrapper,
+.container-fluid.content-wrapper,
+.container-fluid.footer-wrapper,
+.container-fluid.site-wrapper {
+  padding-right: 0;
+  padding-left: 0;
+}
+/*Site wrapper*/
+
+.site-wrapper {
+  background-color: #fff;
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+  border-top: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 14px solid rgba(0, 0, 0, 0.15);
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+/*Container header*/
+.container-header {
+  margin: 0 auto;
+  width: 940px;
+}
+
+
+/*Main Heading big text of the top of this page*/
+.title {
+  font-family: "Great Vibes", cursive, Helvetica, Arial, sans-serif;
+  color: #000;
+  font-size: 56px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 56px;
+  letter-spacing: 0;
+  padding: 6px 0;
+  margin-left: 0;
+  line-height: 52px;
+  padding-top: 38px;
+}
+
+/*Secondary heading smaller below the main text*/
+
+.subtitle{
+    color: #cd0d18;
+text-shadow: none;
+text-transform: none;
+font-family: 'Source Sans Pro',Helvetica,Arial,sans-serif;
+font-size: 22px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0;
+padding: 2px 0;
+margin-left: 0;
+font-style: normal;
+}
+
+/*Logo og this page x3 */
+
+.logo{
+    color: #000;
+    text-decoration: none;
+}
+
+.logo:hover{
+    text-decoration: underline;
+}
+/*Header*/
+.header-wrapper {
+  color: #cd0d18;
+  position: relative;
+  margin-bottom: 35px;
+ margin-left: 0px;
+  margin-right: 1px;
+  background-color: #fff;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
+  background-size: auto;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/*Navigation*/
+.navbar {
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 0px;
+margin-right: 0px;
+  overflow: visible;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: #cd0d18;
+line-height: 8px;
+margin-top: -3px;
+padding-top: 1px;
+}
+
+.navbar-container{
+   margin: -6px -27px;
+    padding: 1px 0;
+}
+
+
+.navbar .nav > li {
+  float: left;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar ul li a {
+  text-decoration: underline;
+  margin: 1px 11px;
+color: #fff;
+}
+
+.navbar ul li a:link,
+.navbar ul li a:visited{
+   text-decoration: none;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:active{
+   text-decoration: underline;
+}
+
+.navbar-container-item{
+   font-weight: 700;
+}
+
+/*Content*/ /*Heading*/
+
+.main-heading{
+      font-family: "Great Vibes", cursive, Helvetica, Arial, sans-serif;
+  color: #000;
+ font-size: 35px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 56px;
+  letter-spacing: 0;
+  padding: 6px 0;
+  margin-left: -28px;
+  line-height: 52px;
+}
+
+.heading{
+margin-left: 49px;
+}
+
+.heading h4 a{
+  color: #000;
+  margin-left: -47px
+}
+
+.heading h4 a:hover{
+    text-decoration: underline;
+     color: rgb(56, 50, 50);
+}
+
+.controls{
+position: relative;
+transform: translate(88% );
+top: 49px;
+}
+
+/*Main content of this page layerout
+resizing parameters of content page*/
+
+.content-of-this-page{
+width: 67.7%;
+margin-left: 79px;
+margin-top: -72px;
+}
+
+
+/*Image*/
+
+.image{
+    max-width: 100%;
+    display: inline-block;
+overflow: hidden;
+border-radius: 10px;
+line-height: 0;
+  
+}
+
+.image a{
+cursor: pointer;
+}
+
+.image-model{
+width: 360px;
+float: left;
+margin-right: 27px;
+padding-left: 0px
+}
+
+/*Text*/
+text{
+ font-size: 20px;
+ width: 303px;
+}
+
+span{
+margin-left: -3px;
+margin-right: -47px;
+text-align: left;
+font-size: 16px;
+}
+
+.image-caption{
+     font-size: 15px;
+    font-style: italic;
+    margin-top: 14px;
+    margin-bottom: 33px;
+}
+
+
+/*Overview*/
+.overview ul{
+width: auto;
+margin: 0;
+padding: 0;
+}
+
+.overview ul li {
+font-size: 14px;
+  text-align: center;
+   list-style: none;
+}
+
+.overview ul li  a{
+  color: #000;
+}
+
+.overview ul li a:hover{
+  color: rgb(56, 50, 50);
+}
+
+/*Sidebar*/
+
+.span-3{
+   width:23.40425532%;
+}
+
+#right{
+  float: left;
+overflow: hidden;
+position: absolute;
+top: 192px;
+right: 402px;
+bottom: 78px;
+width: 11%;
+}
+
+.sidebar{
+background: #fff;
+box-shadow: 0 2px 10px rgba(0,0,0,.29);
+border-top: 0 solid #000;
+border-right: 0 solid #000;
+border-bottom: 0 solid #000;
+border-left: 0 solid #000;
+border-radius: 10px;
+}
+
+.word-wrap-fix{
+  word-wrap: break-word;
+}
+
+.heading-aside{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:25px;
+}
+
+
+.container-aside ul li{
+  list-style: none;
+}
+
+.container-aside ul li a{
+  color: #000;
+}
+
+/*Footer*/
+
+#footer{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer-wrapper{
+  border-top: 1px solid rgba(0,0,0,.2);
+padding-left: 0;
+padding-right: 0;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.footer-page-counter{
+  position: absolute;
+right: 397px;
+
+}
+
+ .footer-page-counter
+  .footer-page-counter-item{
+  color: #000;
+  border: solid 0 #000;
+background: #fff;
+font-size: 14.4px;
+font-family: Arial,Helvetica,Arial,sans-serif;
+line-height: 14.4px;
+padding: 2px 2px 1px;
+margin: 3px 2px 0 0;
+border-radius: 4px;
+box-shadow: 0 1px 2px #595959;
+float: left;
+text-align: center;
+color: #000;
+font-weight: 700;
+width: 10px;
+position: relative;
+margin-top: 10px;
+}
+
+
+/*Clearfix*/
+
+/*stop floating*/
+.clearfix{
+  zoom: 1;
+}
+.clearfix:after{
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}

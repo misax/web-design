@@ -1,0 +1,36 @@
+button {
+    display: block;
+    font-size: 25px;
+    font-style: italic;
+    padding: 10px 20px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.btn-submit:hover {
+    background-color: darkolivegreen;
+}
+
+.btn-exit {
+    width: 122px;
+
+}
+
+select {
+    margin-left: 50px;
+    border: 3px solid #666;
+}
+
+.btn-exit:hover {
+    background-color: brown;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    opacity: 0.5;
+}
