@@ -1,0 +1,73 @@
+
+body{
+    background: #333;
+}
+
+/* .box{
+     background-color: #fff;
+     width: 200px;
+     height: 200px;
+     position: relative;
+
+
+/*     
+    animation-name: myanimation ;
+    animation-duration: 4s;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: linear; 
+} 
+*/
+/*Animation*/
+
+@keyframes myanimation{
+    0%{
+        background-color: #fff;
+      
+        border-radius: 0 0 0 0;
+    }
+    25%{
+        background-color: crimson;
+        
+         border-radius: 50% 0 0 0;
+    }
+    50%{
+        background-color: chartreuse;
+        
+          border-radius: 50% 50% 0 0;
+    }
+    75%{
+        background-color: blue;
+        
+          border-radius: 50% 50% 50% 0;
+    }
+    100%{
+        background-color: #fff;
+        
+         border-radius: 50% 50% 50% 50%;
+    }
+}
+
+/*Transition*/
+
+.box{
+     background: #fff;
+     width: 300px;
+     height: 300px;
+     position: relative;
+     margin: 0 auto;
+     top: 200px;
+     transition-property:all;
+     transition-duration: 1s;
+    /* transition-delay: 2s,4s;*/
+     transition-timing-function: ease-in;
+}
+
+.box:hover{
+   background-color: red;
+   border-radius: 50%;
+   transform: rotateY(180deg);
+}

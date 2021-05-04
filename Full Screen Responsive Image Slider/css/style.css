@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+
+body {
+  font-family: "PT Sans ", sans-serif;
+  background-color: #252529;
+  margin: 0;
+  color: var(--white-color);
+  line-height:1.6 ;
+}
+
+img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+
+
+
+/*Showcase*/
+
+#showcase{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('/img/music-1290087_1920.jpg') no-repeat  center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+#showcase .container{
+    margin-top: 25vh;
+}
+
+#showcase h1{
+    font-size:64px ;
+    margin-bottom: 0;
+}
+
+#showcase h2{
+    font-size:32px ;
+
+}
+
+
+
+
+
+/*Navigation*/
+
+nav {
+  height: 40px;
+  width: 100%;
+  background-color: #333;
+  color: var(--add-white-color);
+  position: fixed;
+ border-bottom:1px solid var(--white-color);
+}
+nav ul {
+  padding: 0;
+  margin: 0; 
+ 
+}
+nav li {
+  display: inline;
+  float: left;
+ 
+}
+nav a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 0;
+  color: var(--add-white-color);
+  text-decoration: none; 
+}
+nav li:hover {
+  background-color: #444;
+}
+nav a#openup {
+  display: none;
+}
+
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+/*Section*/
+
+.section{
+    padding: 2rem 0;
+   
+}
+
+.section-head{
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.section h3{
+    font-size: 2rem;
+}
+
+/* Video section */
+
+.bg-light{
+  background-color: var(--add-white-color);
+  color: var(--dark-color);
+}
+
+/*Entertainment section*/
+
+.section-bg{
+  background: url('/img/section-bg.jpg') no-repeat bottom/cover ;
+  padding: 10rem 0;
+}
+
+/*Gift Cards section*/
+
+.gift-cards{
+  display: grid;
+  grid-gap: 20px;
+ grid-template-columns: repeat(2,1fr);
+ text-align: left;
+}
+
+/*Footer*/
+
+footer .footer-cols{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(4,1fr);
+  text-align: left;
+  padding: 2rem;
+  font-size: 14px;
+}
+
+.footer-cols ul{
+  list-style: none;
+}
+
+
+
+
+.footer-cols ul li:first-child{
+  font-size: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+  margin-bottom: 1rem;
+}
+
+footer .footer-bottom{
+  background: #333;
+  padding: 1rem;
+}

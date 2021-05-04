@@ -1,0 +1,72 @@
+@media (max-width: 1068px) {
+    .home-img {
+        display: none;
+    }
+
+    .logo {
+        top: 10px;
+        left: 40px;
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 100px 40px;
+    }
+
+    .navigation ul li a {
+        font-size: 2rem;
+    }
+
+    .services{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .services .service:hover {
+        padding: 0px;
+        background-color: transparent;
+        color: #666;
+        opacity: 1;
+        box-shadow: 6px -7px 5px transparent;
+
+
+    }
+
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-form{
+        width: 100%;
+        padding: 30px 30px 20px;
+    }
+
+    .contact-form .row{
+        flex-direction: column;
+      
+    }
+
+    .contact-form .input50,
+    .contact-form .input100{
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-info{
+        width: 100%;
+        margin-top: 20px;
+          padding: 30px 30px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+  .services {
+      grid-template-columns: 1fr;
+  }
+
+  .services .service {
+   
+    box-shadow: 6px -7px 5px transparent;
+
+  }
+
+}
